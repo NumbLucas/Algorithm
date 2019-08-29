@@ -1,0 +1,40 @@
+{
+    // 使用 IntelliSense 了解相关属性。 
+    // 悬停以查看现有属性的描述。
+    // 欲了解更多信息，请访问: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+    
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Q",
+            "request": "launch",
+            "mainClass": "com.numbguy.base.Q",
+            "projectName": "algorithm_f8581904"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - StringNumTransform",
+            "request": "launch",
+            "mainClass": "com.numbguy.base.StringNumTransform"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Test",
+            "request": "launch",
+            "mainClass": "com.numbguy.Test"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch) - Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-NiuNiu",
+            "request": "launch",
+            "mainClass": "com.numbguy.wangyi.NiuNiu"
+        }
+    ]
+}

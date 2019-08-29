@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/algorithm.iml" filepath="$PROJECT_DIR$/algorithm.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../demo_springboot/demo.iml" filepath="$PROJECT_DIR$/../demo_springboot/demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../qa_project/qa-master/qa.iml" filepath="$PROJECT_DIR$/../qa_project/qa-master/qa.iml" />
+    </modules>
+  </component>
+</project>
