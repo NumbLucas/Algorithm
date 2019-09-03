@@ -44,6 +44,32 @@ public class StringFix {
         }
 
     }
+    public static String fix_2(String str) {
+        StringBuilder s = new StringBuilder();
+        int pos = 0;
+
+        while(pos < str.length()) {
+            char currentChar = str.charAt(pos);
+            pos++;
+            if(s.length()<2){
+                s.append(currentChar);
+                continue;
+            }
+            if(s.length()>=2) {
+                if(currentChar == s.charAt(s.length()-1)&&
+                currentChar == s.charAt(s.length()-2)) 
+                continue;
+            }
+            if(s.length()>=3) {
+                if(currentChar == s.charAt(s.length()-1)&&
+                s.charAt(s.length()-3) == s.charAt(s.length()-2))  
+                continue;
+            }
+            s.append(currentChar);
+        }
+
+        return s.toString();
+    }
 
     public static String fix(String str) {
         StringBuilder s = new StringBuilder();

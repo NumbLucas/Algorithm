@@ -39,9 +39,5 @@ public class HeapSort {
             right = 2*index + 2;
 
         }
-
-
-
-
     }
 }

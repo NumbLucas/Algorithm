@@ -6,6 +6,18 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - t",
+            "request": "launch",
+            "mainClass": "com.numbguy.ByteDance.t"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - tsp",
+            "request": "launch",
+            "mainClass": "com.numbguy.ByteDance.tsp"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - StringFix",
             "request": "launch",
             "mainClass": "com.numbguy.ByteDance.StringFix",
